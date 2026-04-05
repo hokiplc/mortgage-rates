@@ -8,6 +8,7 @@ Fetches mortgage rates from lender websites and saves to data/rates/.
 - `scrape-historical.ts` - Fetch historical rates from Wayback Machine
 - `validate.ts` - Validate rate data integrity
 - `validate-history.ts` - Validate history matches current rates
+- `build_bestrates.py` - Python utility to build `data/rates/bestrates.json` backup from scraped lender files
 - `providers/` - Per-lender scraping implementations
 - `history/` - History tracking (changeset.ts, wayback.ts, build-history.ts)
 - `utils/` - Shared utilities (hash.ts, parsing.ts, types.ts)
